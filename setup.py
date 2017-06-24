@@ -1,8 +1,5 @@
 from cx_Freeze import setup, Executable
 import scipy, os, PyQt4
-from PyQt4.QtCore import *
-from PyQt4.QtGui import *
-from PyQt4.phonon import *
 import numpy
 
 includefiles_list=[]
