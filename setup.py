@@ -1,6 +1,6 @@
 from cx_Freeze import setup, Executable
 import scipy, os, PyQt4
-
+import numpy
 
 includefiles_list=[]
 scipy_path = os.path.dirname(scipy.__file__)
